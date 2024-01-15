@@ -1,4 +1,4 @@
-<footer class="absolute bottom-0 flex flex-col sm:flex-row justify-between md:grid md:grid-cols-3 items-center py-6 w-full">
+<footer class="z-[900] absolute bottom-0 flex flex-col sm:flex-row justify-between md:grid md:grid-cols-3 items-center py-6 w-full">
     <a class="p-5 lg:pl-10 hover:opacity-50 transition-all" href="mailto:Rasnil97@gmail.com">Rasnil97@gmail.com</a>
     <div class="justify-self-center flex items-center gap-4 sm:mr-5 md:mr-0">
         <a class="transition-all hover:opacity-50" href="">
