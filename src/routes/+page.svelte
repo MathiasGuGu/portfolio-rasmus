@@ -3,3 +3,15 @@
 </script>
 
 <NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
+<NextButton direction="left" text="Om meg" href="/om"/>
