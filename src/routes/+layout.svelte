@@ -7,7 +7,7 @@
 <body class="bg-black relative
  text-white min-h-[100vh]">
  <Header />
- <main class="pb-[136px]">
+ <main class="pb-[181px] sm:pb-[136px]">
 <slot />
 </main>
 <Footer />

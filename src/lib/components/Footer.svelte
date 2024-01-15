@@ -1,6 +1,6 @@
-<footer class="absolute bottom-0 flex justify-between md:grid md:grid-cols-3 items-center py-6 w-full">
+<footer class="absolute bottom-0 flex flex-col sm:flex-row justify-between md:grid md:grid-cols-3 items-center py-6 w-full">
     <a class="p-5 lg:pl-10 hover:opacity-50 transition-all" href="mailto:Rasnil97@gmail.com">Rasnil97@gmail.com</a>
-    <div class="justify-self-center flex items-center gap-4 mr-5 md:mr-0">
+    <div class="justify-self-center flex items-center gap-4 sm:mr-5 md:mr-0">
         <a class="transition-all hover:opacity-50" href="">
             <svg width="45" height="45" viewBox="0 0 45 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M21.1845 44.9998C20.3172 44.8835 19.4411 44.8096 18.5826 44.6449C11.46 43.2755 6.13546 39.3973 2.64595 33.0517C0.684145 29.4843 -0.209586 25.614 0.0413632 21.5562C0.562633 13.112 4.56901 6.78134 11.9443 2.65128C15.4963 0.661988 19.375 -0.172829 23.4369 0.0288305C29.7828 0.344969 35.1118 2.88553 39.3488 7.62408C42.5583 11.2134 44.3564 15.4509 44.89 20.2309C44.9252 20.5479 44.9639 20.8649 45 21.1819V23.8185C44.9745 23.9444 44.934 24.0703 44.9252 24.1971C44.7059 27.3356 43.8756 30.3095 42.3576 33.0587C38.8575 39.3956 33.5427 43.2764 26.4219 44.6449C25.5634 44.8096 24.6881 44.8835 23.8208 44.9998H21.1845ZM43.5023 22.5231C43.5357 10.9695 34.1432 1.54436 22.5502 1.49857C10.9801 1.45278 1.53032 10.87 1.50303 22.4729C1.47573 34.0353 10.8613 43.4578 22.4498 43.5027C34.0085 43.5468 43.4688 34.1189 43.5023 22.5231Z" fill="white"/>
