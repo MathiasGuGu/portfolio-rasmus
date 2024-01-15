@@ -27,7 +27,7 @@ function hideMenu() {
                 
                 
         </button>
-    <nav class="hidden md:flex gap-10 md:gap-0 absolute md:static h-screen md:h-full w-full flex flex-col md:flex-row justify-center md:justify-start items-center z-1000 bg-black">
+    <nav class="hidden md:flex gap-10 md:gap-0 absolute md:static h-screen md:h-full w-full flex flex-col md:flex-row justify-center md:justify-start items-center z-[1000] bg-black">
         <a on:click={hideMenu} class="hover:opacity-50 transition-all md:p-5" href="/">Hjem</a>
         <a on:click={hideMenu} class="hover:opacity-50 transition-all whitespace-nowrap md:p-5" href="/om">Om meg</a>
         <a on:click={hideMenu} class="hover:opacity-50 transition-all md:p-5" href="/portefølje">Portefølje</a>

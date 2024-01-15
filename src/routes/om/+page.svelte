@@ -1,8 +1,16 @@
 <script>
     import TextBox from "../../lib/components/TextBox.svelte";
+    import NextButton from "../../lib/components/NextButton.svelte"
 </script>
 
-<article class="h-full flex flex-col justify-center items-center">
-    <h1 class="text-white text-4xl md:text-5xl font-bold">OM MEG</h1>
-    <TextBox text="Jeg er en fersk grafisk designer på 26 år som studerer hos Noroff Kristiansand, og ved siden av studiet jobber jeg som sportsjournalist for Nettavisen og Avisen KRS. I mine første år som grafisk designer har jeg allerede utført flere spennende oppdrag og innhentet kunderelatert erfaring. På denne siden vil jeg fremover dele mitt arbeid."/>
-</article>
+
+ 
+    <article class="flex flex-col items-center gap-10 lg:gap-20 absolute top-1/2 sm:left-1/2 sm:-translate-x-1/2 -translate-y-1/2 w-full">
+        <h1 class="text-white text-4xl sm:text-5xl font-bold">OM MEG</h1>
+        <div class="flex flex-col gap-10 items-center lg:flex-row">
+         <TextBox text="Jeg er en fersk grafisk designer på 26 år som studerer hos Noroff Kristiansand, og ved siden av studiet jobber jeg som sportsjournalist for Nettavisen og Avisen KRS. I mine første år som grafisk designer har jeg allerede utført flere spennende oppdrag og innhentet kunderelatert erfaring. På denne siden vil jeg fremover dele mitt arbeid."/>
+         <NextButton text="PORTEFØLJE" href="/portefølje"/>
+        </div>
+    </article>
+
+    
