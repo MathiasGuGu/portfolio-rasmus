@@ -4,4 +4,5 @@
 </script>
 
 <h1>{data.casestudy.title}</h1>
-<TextBox text={data.casestudy.content}/>
+<TextBox>{data.casestudy.content}</TextBox>
+<img src={data.casestudy.cover} alt="hei"/>
