@@ -20,16 +20,17 @@
     </div>
     
     
-    <h2>Emballasjedesign:</h2>
-    <img src={data.casestudy.cover} alt="{data.casestudy.title} - {data.casestudy.subtitle}"/>
+    <h2 class="text-2xl md:text-3xl font-bold mb-6 mt-16 md:mb-10">Emballasjedesign:</h2>
+    <img class="w-full" src={data.casestudy.cover} alt="{data.casestudy.title} - {data.casestudy.subtitle}"/>
     
-    <h2>Stanseriss:</h2>
+    <h2 class="text-2xl md:text-3xl font-bold mb-6 mt-16 md:mb-10">Stanseriss:</h2>
     <img src={data.casestudy.stanseriss} alt="Stanseriss av {data.casestudy.title}">
     
-    <h2>Annonser:</h2>
+    <h2 class="text-2xl md:text-3xl font-bold mb-6 mt-16 md:mb-10">Annonser:</h2>
+    <div class="flex flex-col md:flex-row gap-4 w-full">
     {#each data.casestudy.annonser as annonse}
-        <img src={annonse} alt="Annonse plakat av {data.casestudy.title}">
+        <img class="overflow-hidden" src={annonse} alt="Annonse plakat av {data.casestudy.title}">
     {/each}
-
+    </div>
 </article>
 
