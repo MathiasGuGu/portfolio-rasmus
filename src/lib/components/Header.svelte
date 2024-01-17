@@ -13,7 +13,7 @@ function hideMenu() {
 }
 </script>
 
-<header class="flex justify-between md:items-center lg:grid lg:grid-cols-3 lg:py-5 lg:px-7">
+<header class="flex justify-between md:items-center lg:grid lg:grid-cols-3 lg:py-5 lg:px-7 max-w-[1200px] m-auto">
         <button id="menu-btn" class="p-5 md:hidden" on:click={showMenu}>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M3 6H21M3 12H21M3 18H21" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
