@@ -6,7 +6,9 @@ export function load() {
 			title: casestudy.title,
 			subtitle: casestudy.subtitle,
 			slug: casestudy.slug,
-			cover: casestudy.cover
+			cover: casestudy.cover,
+			stanseriss: casestudy.stanseriss,
+			annonser: casestudy.annonser
 		}))
 	};
 }
