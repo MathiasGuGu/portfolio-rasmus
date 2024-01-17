@@ -3,7 +3,6 @@
     import NextButton from "../../lib/components/NextButton.svelte"
 </script>
 
-
  
     <article class="flex flex-col items-center gap-10 lg:gap-20 absolute top-1/2 sm:left-1/2 sm:-translate-x-1/2 -translate-y-1/2 w-full">
         <h1 class="text-white text-4xl sm:text-5xl font-bold">OM MEG</h1>
