@@ -13,7 +13,7 @@
 <a class="{(i + 1) % 2 === 0 ? "order-1" : "order-2"} peer hover:opacity-50 transition-all" href="/portefolje/{slug}">
     <h2 class="text-2xl md:text-3xl font-bold whitespace-nowrap">{title}</h2>
     <h3 class="mb-4">{subtitle}</h3>
-    <img class="aspect-square object-cover w-full" src={cover} alt="{title} - {subtitle}">
+    <img class="aspect-square object-cover w-full" src={cover.src} alt="{cover.alt}">
 </a>
 </div>
 {/each}
