@@ -11,7 +11,7 @@
 
         <div class="w-full grid gap-10 lg:gap-0 items-center lg:grid lg:grid-cols-4">
           
-                <NextButton direction="left" href="/portefølje">TILBAKE</NextButton>
+                <NextButton direction="left" href="/portefolje">TILBAKE</NextButton>
            
             <div class="lg:col-start-2 lg:col-span-2">
             <TextBox>{data.casestudy.content}</TextBox>
