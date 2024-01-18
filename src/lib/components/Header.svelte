@@ -32,7 +32,7 @@ function hideMenu() {
     <nav class="hidden md:flex gap-10 md:gap-0 absolute md:static h-screen md:h-full w-full flex flex-col md:flex-row justify-center md:justify-start items-center z-[1000] bg-black">
         <a on:click={hideMenu} class="hover:opacity-50 transition-all md:p-5 {$page.url.pathname === "/" && 'underline'}" href="/">Hjem</a>
         <a on:click={hideMenu} class="hover:opacity-50 transition-all whitespace-nowrap md:p-5 {$page.url.pathname === "/om" && 'underline'}" href="/om">Om meg</a>
-        <a on:click={hideMenu} class="hover:opacity-50 transition-all md:p-5 {$page.url.pathname === "/portefolje" && 'underline'}" href="/portefolje">Portefølje</a>
+        <a on:click={hideMenu} class="hover:opacity-50 transition-all md:p-5 {$page.url.pathname.includes("/portefolje") && 'underline'}" href="/portefolje">Portefølje</a>
     </nav>
     <a class="justify-self-center" href="/">
         <svg class="max-w-[40px] max-h-[40px] lg:max-w-[200px] lg:max-h-[200px] m-5" width="101" height="96" viewBox="0 0 101 96" fill="none" xmlns="http://www.w3.org/2000/svg">
