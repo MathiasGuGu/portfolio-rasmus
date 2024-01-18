@@ -10,7 +10,7 @@
             <div class="col-start-2 col-span-2">
          <TextBox maxW="max-w-[600px]">Jeg er en fersk grafisk designer på 26 år som studerer hos Noroff Kristiansand, og ved siden av studiet jobber jeg som sportsjournalist for Nettavisen og Avisen KRS. I mine første år som grafisk designer har jeg allerede utført flere spennende oppdrag og innhentet kunderelatert erfaring. På denne siden vil jeg fremover dele mitt arbeid.</TextBox>
         </div>
-         <NextButton href="/portefølje">PORTEFØLJE</NextButton>
+         <NextButton href="/portefolje">PORTEFØLJE</NextButton>
         </div>
     </article>
 
